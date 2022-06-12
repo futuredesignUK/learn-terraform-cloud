@@ -1,0 +1,3 @@
+# In addition to command line flags, variable sets, and workspace variables, you can pass variables to your configuration in Terraform Cloud through files named *.auto.tfvars. The variable value defined here will attempt to update your instance type back to t2.micro. Note that auto.tfvars files have the lowest precedence in a workspace, and any workspace specific variables will override the values defined in this file.
+ 
+instance_type = "t2.micro"
